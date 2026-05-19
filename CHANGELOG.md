@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+## [0.5.3] - 2026-05-19
+
+### Fixed
+
+- Fix moderate-severity dependency vulnerabilities (mermaid gantt DoS and classDef/config injection, vite/postcss XSS, transitive dompurify and uuid advisories via `npm audit fix`)
+
+### Changed
+
+- Bump `mermaid` to ^11.15.0, `vite` to ^8.0.13, `@biomejs/biome` to ^2.4.15, `@types/node` to ^25.9.0, `typescript` to ^6.0.3
+
 ## [0.5.2] - 2026-04-08
 
 ### Fixed
