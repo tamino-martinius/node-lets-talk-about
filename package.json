@@ -20,10 +20,10 @@
   ],
   "author": "Tamino Martinius",
   "license": "MIT",
-  "homepage": "https://github.com/tamino-martinius/lets-talk-about",
+  "homepage": "https://github.com/tamino-martinius/node-lets-talk-about",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tamino-martinius/lets-talk-about.git"
+    "url": "git+https://github.com/tamino-martinius/node-lets-talk-about.git"
   },
   "scripts": {
     "lint": "biome check .",

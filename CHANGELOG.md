@@ -104,14 +104,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 - CSS variable theming
 - GitHub Pages deployment via gh-pages
 
-[Unreleased]: https://github.com/tamino-martinius/lets-talk-about/compare/v0.5.4...HEAD
-[0.5.4]: https://github.com/tamino-martinius/lets-talk-about/compare/v0.5.3...v0.5.4
-[0.5.3]: https://github.com/tamino-martinius/lets-talk-about/compare/v0.5.2...v0.5.3
-[0.5.2]: https://github.com/tamino-martinius/lets-talk-about/compare/v0.5.1...v0.5.2
-[0.5.1]: https://github.com/tamino-martinius/lets-talk-about/compare/v0.5.0...v0.5.1
-[0.5.0]: https://github.com/tamino-martinius/lets-talk-about/compare/v0.4.0...v0.5.0
-[0.4.0]: https://github.com/tamino-martinius/lets-talk-about/compare/v0.3.0...v0.4.0
-[0.3.0]: https://github.com/tamino-martinius/lets-talk-about/compare/v0.2.1...v0.3.0
-[0.2.1]: https://github.com/tamino-martinius/lets-talk-about/compare/v0.2.0...v0.2.1
-[0.2.0]: https://github.com/tamino-martinius/lets-talk-about/compare/v0.1.0...v0.2.0
-[0.1.0]: https://github.com/tamino-martinius/lets-talk-about/releases/tag/v0.1.0
+[Unreleased]: https://github.com/tamino-martinius/node-lets-talk-about/compare/v0.5.4...HEAD
+[0.5.4]: https://github.com/tamino-martinius/node-lets-talk-about/compare/v0.5.3...v0.5.4
+[0.5.3]: https://github.com/tamino-martinius/node-lets-talk-about/compare/v0.5.2...v0.5.3
+[0.5.2]: https://github.com/tamino-martinius/node-lets-talk-about/compare/v0.5.1...v0.5.2
+[0.5.1]: https://github.com/tamino-martinius/node-lets-talk-about/compare/v0.5.0...v0.5.1
+[0.5.0]: https://github.com/tamino-martinius/node-lets-talk-about/compare/v0.4.0...v0.5.0
+[0.4.0]: https://github.com/tamino-martinius/node-lets-talk-about/compare/v0.3.0...v0.4.0
+[0.3.0]: https://github.com/tamino-martinius/node-lets-talk-about/compare/v0.2.1...v0.3.0
+[0.2.1]: https://github.com/tamino-martinius/node-lets-talk-about/compare/v0.2.0...v0.2.1
+[0.2.0]: https://github.com/tamino-martinius/node-lets-talk-about/compare/v0.1.0...v0.2.0
+[0.1.0]: https://github.com/tamino-martinius/node-lets-talk-about/releases/tag/v0.1.0
