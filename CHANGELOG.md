@@ -6,6 +6,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+## [0.5.4] - 2026-07-01
+
+### Security
+
+- Fix a Vite `server.fs.deny` bypass on Windows (CVE-2026-53571 / GHSA-fx2h-pf6j-xcff). Vite `<8.0.16` in the 8.x line could be tricked into serving denied files (e.g. `.env`, `.pem`) via NTFS Alternate Data Streams and 8.3 short-name paths when the dev server was network-exposed. The `vite` requirement is now `^8.0.16`.
+- Update patched transitive dependencies via lockfile refresh:
+  - `dompurify` 3.4.11 — multiple `IN_PLACE` XSS and config-pollution advisories
+  - `linkify-it` 5.0.1 — GHSA-22p9-wv53-3rq4, quadratic-complexity ReDoS
+  - `markdown-it` 14.2.0 — GHSA-6v5v-wf23-fmfq, smartquotes DoS
+  - `js-yaml` 3.15.0 — GHSA-h67p-54hq-rp68, merge-key quadratic-complexity DoS
+
+### Changed
+
+- Bump `vite` to `^8.0.16`
+
 ## [0.5.3] - 2026-05-19
 
 ### Fixed
@@ -89,7 +104,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 - CSS variable theming
 - GitHub Pages deployment via gh-pages
 
-[Unreleased]: https://github.com/tamino-martinius/lets-talk-about/compare/v0.5.2...HEAD
+[Unreleased]: https://github.com/tamino-martinius/lets-talk-about/compare/v0.5.4...HEAD
+[0.5.4]: https://github.com/tamino-martinius/lets-talk-about/compare/v0.5.3...v0.5.4
+[0.5.3]: https://github.com/tamino-martinius/lets-talk-about/compare/v0.5.2...v0.5.3
 [0.5.2]: https://github.com/tamino-martinius/lets-talk-about/compare/v0.5.1...v0.5.2
 [0.5.1]: https://github.com/tamino-martinius/lets-talk-about/compare/v0.5.0...v0.5.1
 [0.5.0]: https://github.com/tamino-martinius/lets-talk-about/compare/v0.4.0...v0.5.0
